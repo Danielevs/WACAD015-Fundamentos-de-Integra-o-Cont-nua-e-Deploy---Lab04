@@ -1,13 +1,13 @@
 # 💻 Laboratório 04 – Exercício 04
 
-Este repositório contém os arquivos e configurações do exercício 01 do Laboratório 02 da Web Academy. O objetivo é aprender a configurar e utilizar **GitHub Actions** para automatizar tarefas em projetos de desenvolvimento.
+Este repositório contém os arquivos e configurações do exercício 01 do Laboratório 04 da Web Academy. O objetivo é aprender a configurar e utilizar **GitHub Actions** para automatizar tarefas em projetos de desenvolvimento.
 
 ## 📌 Objetivos do exercício
 
-- Consolidar o uso de pipelines através da configuração de etapas de teste (usando o Jest) e com o uso de Containers.
+Consolidar o uso de pipelines através da configuração de pipelines que utilizam condicionais e deploy em infra-estrutura em nuvem!
 
 ## 🛠️ Estrutura do projeto
-.github/ └── workflows/ └── docker_build.yml
+.github/ └── workflows/ └── wa-google-cloudrun-docker.yml
 
 ## Pré-Requisitos:
 - Ter uma conta no GitHub
@@ -17,7 +17,7 @@ Este repositório contém os arquivos e configurações do exercício 01 do Labo
 
 ## 🚀 Como funciona o workflow:
 
-O arquivo `docker_build.yml` define um fluxo de trabalho que é executado automaticamente quando há um `push` ou `pull request` no branch `main`. Ele pode incluir etapas como:
+O arquivo `wa-google-cloudrun-docker.yml` define um fluxo de trabalho que é executado automaticamente quando há um `push` ou `pull request` no branch `main`. Ele pode incluir etapas como:
 
 - Instalar dependências
 - Rodar testes
@@ -27,7 +27,7 @@ O arquivo `docker_build.yml` define um fluxo de trabalho que é executado automa
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Danielevs/https-github.com-Danielevs-WACAD015-Fundamentos-de-Integra-o-Cont-nua-e-Deploy---Lab03_2
+   git clone https://github.com/Danielevs/WACAD015-Fundamentos-de-Integra-o-Cont-nua-e-Deploy---Lab04
 
 2. Faça alterações e envie para o GitHub
 
